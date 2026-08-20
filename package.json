@@ -1,0 +1,16 @@
+{
+  "name": "magic-frame-widgets",
+  "version": "1.0.0",
+  "description": "Custom widgets for Magic Frame",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "build": "node scripts/build-one.mjs",
+    "build:all": "node scripts/build-all.mjs",
+    "clean": "rm -rf build"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "esbuild": "^0.28.2"
+  }
+}
